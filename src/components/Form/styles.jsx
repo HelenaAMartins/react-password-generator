@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-import copy from "../../assets/img/copy.png";
 import { colors } from "../../styles/variables";
 
 export const FormWrapper = styled.div`
