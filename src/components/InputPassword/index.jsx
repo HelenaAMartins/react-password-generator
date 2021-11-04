@@ -1,9 +1,9 @@
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
-import { PasswordWrapper, Password, CopyButton, CopiedMsg } from "./styles";
+import { PasswordWrapper, InputWrapper, Password, CopyButton, CopiedMsg } from "./styles";
 const InputPassword = ({ password, copy, onCopy }) => {
   return (
-    <div style={{ position: "relative" }}>
+    <InputWrapper>
       <PasswordWrapper>
         <Password>{password}</Password>
 
@@ -12,7 +12,7 @@ const InputPassword = ({ password, copy, onCopy }) => {
         </CopyToClipboard>
       </PasswordWrapper>
       <CopiedMsg isCopied={copy}>Copied.</CopiedMsg> 
-    </div>
+    </InputWrapper>
   );
 };
 

@@ -15,6 +15,12 @@ export const PasswordWrapper = styled.div`
   width: 100%;
 `;
 
+export const InputWrapper = styled.div`
+width: 100%;
+position: relative;
+
+`
+
 export const Password = styled.h2`
   color: ${colors.textColor};
   font-size: 14px;
