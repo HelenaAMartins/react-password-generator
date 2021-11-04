@@ -1,4 +1,12 @@
 # React Password Generator
+I've created a random password generator using React.
+
+I'm currently taking Luiz Otávio Miranda Figueiredo course called Curso de JavaScript e TypeScript do básico ao avançado 2021 (Javascript and TypeScript course from basics to advanced level).
+
+Then, after the JS part of the course, he made the js code for the password generator as an activity/projec. I've changed some things regarding the logic, such as the order of the characters: while in his activity, he showed how to generate the password following -> uppercase letter -> lowercase letter -> number -> symbol, I've added in my version the method for getting the characters randomly.
+
+Also, I've decided to make style using styled components with React.
+Moreover, I know the design is pretty simple, but I've made it myself.
 
 ## Website Preview
 https://react-password-generator-helenaamartins.vercel.app
@@ -9,5 +17,4 @@ https://react-password-generator-helenaamartins.vercel.app
 
 
 
-### Briefing
-Project for the course Beginners from Faculdade IV2 consisting in creating a page of drinks recipes from a drink API.
+
