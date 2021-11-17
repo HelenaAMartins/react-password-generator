@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 
-import getPassword from "../../utils";
-import RangeSlider from "../RangeSlide";
-
+import getPassword from "utils";
+import RangeSlider from "components/RangeSlide";
+import ToggleAndLabel from "components/CheckToggle";
+import InputPassword from "components/InputPassword";
 import { ButtonSubmit, FormWrapper } from "./styles";
-import ToggleAndLabel from "../CheckToggle";
-import InputPassword from "../InputPassword";
 
 const Form = () => {
   const [copy, setCopy] = useState(false);

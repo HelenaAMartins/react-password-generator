@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import copy from "../../assets/img/copy.png";
-import { colors } from "../../styles/variables";
+import copy from "assets/img/copy.png";
+import { colors } from "styles/variables";
 
 export const PasswordWrapper = styled.div`
   align-items: center;

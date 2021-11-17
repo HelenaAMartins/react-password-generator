@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { colors } from "../../styles/variables";
+import { colors } from "styles/variables";
 
 export const RangeSlide = styled.input`
   margin: 10px 0;
